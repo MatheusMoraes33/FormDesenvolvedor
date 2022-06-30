@@ -1,0 +1,143 @@
+/*
+
+input[type=text]{
+    background-color: aqua;
+    border: solid black;
+    border-radius: 10px;
+    width: 140px;
+
+}
+
+input[type=email]{
+    background-color: aqua;
+    border: solid cornsilk;
+    border-radius: 10px;
+    width: 140px;
+}
+*/
+
+/*Agrupamento de seletores
+h1, p{
+    text-align: center;
+    
+}
+*/
+/*
+#text{
+    background-color: aqua;
+    max-width: 50%;
+    margin-top: 20px;
+    border: solid black 3px;
+    padding: 28px 8px 18px ;
+    border-radius: 30px;
+    text-align: center;
+    margin-left: 330px;
+}
+#textTwo{
+    background-color: aqua;
+    border: solid black 3px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+p{
+    text-align: justify;
+    line-height: 30px;
+    text-shadow: 3px 3px 4px black;
+}
+
+h1{
+    text-align: left;
+text-transform: capitalize;
+}
+
+h2{
+    text-align: right;
+}
+h3{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: blue;
+    border: solid 3px black;
+    border-radius: 12px;
+}
+
+.nome{
+    background-color: aqua;
+    text-shadow: 3px 3px 4px;
+    font-family: arial;
+    font-size: 30px;
+    border: solid 3px green;
+    border-radius: 30px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: -8px 10px 13px;
+
+}
+*/
+
+body{
+    background-image: url(./img/ImagemFundo.jpg);
+}
+
+.legend{
+    text-align: center;
+    font-family: arial;
+    border: solid 2px black;
+    border-radius: 10px;
+    background-color: burlywood;
+}
+
+input[type=text]{
+    background-color: rgba(240, 248, 255, 0.656);
+   font-family: 'Courier New', Courier, monospace;
+    margin-left: 3px;
+    border: solid black 1px;
+    border-radius: 8px;
+}
+
+input[type=email]{
+    background-color: rgba(240, 248, 255, 0.656);
+    font-family: 'Courier New', Courier, monospace; 
+    margin-left: 5px;
+    border: solid black 1px;
+    border-radius: 8px;
+}
+
+
+input[type=tel]{
+    background-color: rgba(240, 248, 255, 0.656);
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 1px;
+    border: solid black 1px;
+    border-radius: 8px;
+}
+
+.field{
+    border: solid rgb(179, 226, 8);
+    border-radius: 30px;
+    width: 300px;
+    margin: auto;
+    background-color: aqua;
+}
+
+input[type=submit]{
+    border: solid rgb(20, 13, 1);
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    color: blue;
+    margin-left: 100px;
+    width: 90px;
+}
+
+input[type=reset]{
+    border: solid rgb(17, 11, 1);
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    color: red;
+    margin-left: 100px;
+    width: 90px;
+} 
